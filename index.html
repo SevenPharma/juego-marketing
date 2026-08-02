@@ -701,7 +701,7 @@ async function endGame(){
 
   const result = await saveScoreRemote(entry);
   if(CONFIG.REMOTE_URL){
-    status.textContent = "✅ Resultado guardado en la tabla compartida.";
+    status.textContent = "✅ Resultado guardado";
   } else {
     status.textContent = "Resultado guardado en este dispositivo (configura el backend para compartirlo con todas las droguerías).";
   }
